@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.header .navigation{
+    display: flex;
+    gap: 15px;
+}
+.header .naigation button{
+    padding: 8px 16 px;
+    border: none;
+    border-radius: 4 px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+.header .navigation button:hover{
+    background-color: #ddd;
+}
+.search-bar input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.cart button{
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.banners{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.banner{
+    flex: 1;
+    padding: 20px;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+.banner-1{
+    background-color: #ffebcc;
+    color: #333;
+}
+.banner-2{
+    background-color: #ccf2ff;
+    color: #333;
+}
+.banner h2{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.banner img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    gap: 20px;
+}
+.product{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product img{
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+}
+.product h3{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.product .original-price{
+    text-decoration: line-through;
+    color: gray;
+    font-size: 0.9rem;
+}
+.product .sale-price{
+    font-size: 1.2rem;
+    color: #ff4500;
+    font-weight: bold;
+}
+.footer{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: grey;
+}
+.foto{
+    height: 50px;
+    width: 50px;
+}
